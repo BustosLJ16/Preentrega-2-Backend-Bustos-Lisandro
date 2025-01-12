@@ -3,7 +3,6 @@ import handlebars from 'express-handlebars'
 import { Server as httpServer } from 'http'
 import { Server as ServerIo } from 'socket.io';
 
-
 //Importación de Rutas
 import viewsRouter from './routes/view.routes.js'
 import productsRoutes from './routes/api/products.routes.js';
@@ -19,9 +18,7 @@ app.engine('hbs', handlebars.engine({extname: '.hbs'}));
 app.set('view engine', 'hbs')
 app.set('views', 'src/views')
 
-app.get('/', (req, res) => {
-    res.send('Hola, Estas en el HOME!')
-})
+// Rutas de express
 app.use('/', viewsRouter)
 app.use('/api/products', productsRoutes)
 app.use('/api/cart', cartRoutes)
