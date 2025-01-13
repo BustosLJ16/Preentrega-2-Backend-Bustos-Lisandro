@@ -4,10 +4,6 @@ import managerProducts from '../../managers/managerProducts.js'
 const productsRoutes = Router();
 const productsManager = new managerProducts();
 
-// productsRoutes.get('/', (req, res) => {
-//     res.send('Hola, esto es productsRoutes')
-// })
-
 // Metodos de ProductsRoutes (Get, Post, Put y Delete)
 
 // Limite aplicando QueryParams (Get)
