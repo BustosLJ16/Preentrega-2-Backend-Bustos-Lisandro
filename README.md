@@ -69,16 +69,19 @@ Como antes fue mencionado, El proyecto se divide en las rutas marcadas con el '/
 - Dentro de esta ruta, encontraremos como en el Home, los productos renderizados. Sin embargo, encontraremos tambien un pequeño formulario creado con la finalidad de poder manejar los productos en tiempo real.
 Dicho formulario, esta pensado para un manejo más sencillo a la hora del manejo de los productos, buscando el poder agregar, actualizar o eliminar los productos y ver los cambios en tiempo real siendo renderizados los cambios en el mismo instante. Sin embargo, esto aún no esta 100% finalizado ya que se penso como una vista unicamente con acceso para personal restringido, es decir admins.
 
+
+## Propiedades de los Productos:
 El formulario cuenta con 7 inputs los cuales apuntan a los 7 propiedades requeridas para el alta de un producto en la DB:
 
-  CAMPOS   -   Propiedad del Producto - TIPO de dato
-- Title    -     El Nombre / titulo   - (String)
-- Description - La Descripción - (String)
-- Code - El Codigo de referencia - (String)
-- Price - El Precio - (Number)
-- Stock - El Stock disponible - (Number)
-- Category - La Categoría - (String)
-- Thumbnail - La Portada / Imagen - (Link)
+| Campo        | Propiedad del Producto | Tipo de Dato  |
+|--------------|-------------------------|---------------|
+| **Title**    | El Nombre / Título      | `String`      |
+| **Description** | La Descripción        | `String`      |
+| **Code**     | El Código de referencia | `String`      |
+| **Price**    | El Precio               | `Number`      |
+| **Stock**    | El Stock disponible     | `Number`      |
+| **Category** | La Categoría            | `String`      |
+| **Thumbnail**| La Portada / Imagen     | `Link`        |
 
 
 
