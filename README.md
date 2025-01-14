@@ -14,8 +14,8 @@ Dentro del proyecto, encontraremos con varias rutas, estas siendo del tipo Get, 
   - Formato del Product:
     {                                                                                                                                                                               
     "title": "Example-title",                                                                                                                                                              
-    "description": "Example-Description",
-    "code": "Example-code",                                                                                                                                                        
+    "description": "Example-Description",                                                                                                                                                        
+    "code": "Example-code",
     "price": 1,                                                                                                                                                        
     "stock": 1,                                                                                                                                                                 
     "category": "Example-Category",
