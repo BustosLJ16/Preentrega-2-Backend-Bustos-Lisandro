@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "title": "Example-title",
+    "description": "Example-description",
+    "code": "Example-code",
+    "price": 100,
+    "stock": 10,
+    "category": "Example-category",
+    "thumbnail": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_41554_Mouse_Corsair_M75_Air_Wireless_2.4Ghz_Bluetooth_Ultra_Lightweight_Gray_26K_100Hs_444db2e1-grn.jpg",
+    "status": true,
+    "id": 3543
+  },
+  {
+    "title": "prod1",
+    "description": "prod1",
+    "code": "1",
+    "price": 1,
+    "stock": 1,
+    "category": "prod",
+    "thumbnail": "https://imagenes.compragamer.com/productos/compragamer_Imganen_general_41554_Mouse_Corsair_M75_Air_Wireless_2.4Ghz_Bluetooth_Ultra_Lightweight_Gray_26K_100Hs_444db2e1-grn.jpg",
+    "status": true,
+    "id": 191
+  }
+]
