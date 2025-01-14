@@ -35,8 +35,8 @@ Dentro del proyecto, encontraremos con varias rutas, estas siendo del tipo Get, 
     "code": "Example-code",                                                                                                                                                        
     "price": 1,                                                                                                                                                        
     "stock": 1,                                                                                                                                                                 
-    "category": "Example-Category"                                                                                                                                                         
-    "thumbnail": "Example-thumbnail",                                                                                                                                                        
+    "category": "Example-Category",                                                                                                                                                       
+    "thumbnail": "Example-thumbnail"
   }
 
 4. Ruta Delete -  Eliminación de un producto seleccionado (http://localhost:8080/api/products/:pid)
