@@ -71,14 +71,14 @@ Dicho formulario, esta pensado para un manejo más sencillo a la hora del manejo
 
 El formulario cuenta con 7 inputs los cuales apuntan a los 7 propiedades requeridas para el alta de un producto en la DB:
 
-  CAMPOS                   Propiedad del Producto                    TIPO de dato
-- Title                     El Nombre / titulo                        (String)
-- Description               La Descripción                            (String)
-- Code                      El Codigo de referencia                   (String)
-- Price                     El Precio                                 (Number)
-- Stock                     El Stock disponible                       (Number)
-- Category                  La Categoría                              (String)
-- Thumbnail                 La Portada / Imagen                       (Link)
+  CAMPOS - Propiedad del Producto - TIPO de dato
+- Title - El Nombre / titulo - (String)
+- Description - La Descripción - (String)
+- Code - El Codigo de referencia - (String)
+- Price - El Precio - (Number)
+- Stock - El Stock disponible - (Number)
+- Category - La Categoría - (String)
+- Thumbnail - La Portada / Imagen - (Link)
 
 
 
