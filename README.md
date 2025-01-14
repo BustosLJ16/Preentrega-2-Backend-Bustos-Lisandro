@@ -19,8 +19,8 @@ Dentro del proyecto, encontraremos con varias rutas, estas siendo del tipo Get, 
     "price": 1,                                                                                                                                                        
     "stock": 1,                                                                                                                                                                 
     "category": "Example-Category",
-    "thumbnail": "Example-thumbnail"                                                                                                                                                         
-  }
+    "thumbnail": "Example-thumbnail"
+    }
   
 2. Ruta Get - Obtención de la lista de productos generados (http://localhost:8080/api/products)
    Formato de busquedas:
