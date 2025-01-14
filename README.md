@@ -31,13 +31,13 @@ Dentro del proyecto, encontraremos con varias rutas, estas siendo del tipo Get, 
    - Formato del producto:                                                                                                                                                        
     {                                                                                                                                                                               
     "title": "Example-title",                                                                                                                                                              
-    "description": "Example-Description",
+    "description": "Example-Description",                                                                                                                                                                 
     "code": "Example-code",                                                                                                                                                        
     "price": 1,                                                                                                                                                        
     "stock": 1,                                                                                                                                                                 
     "category": "Example-Category",                                                                                                                                                       
-    "thumbnail": "Example-thumbnail"
-  }
+    "thumbnail": "Example-thumbnail"                                                                                                                                                                 
+    }
 
 4. Ruta Delete -  Eliminación de un producto seleccionado (http://localhost:8080/api/products/:pid)
    - products/:pid - Producto a Eliminar determinado por su respectivo ID en la lista de productos generados.
