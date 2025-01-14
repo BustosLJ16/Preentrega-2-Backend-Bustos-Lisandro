@@ -4,14 +4,14 @@
 En dicho proyecto, veremos el uso de rutas dinamicas, las cuales fueron establecidas bajo **LocalHost** con el puerto establecido en **8080**. A su vez, tambien utilizaremos las funciones que nos proporciona Socket.io junto a Handlebars para un manejo y renderizado del flujo de datos más eficiente.
 Tambien, utilizaremos Postman para poder manejar inicialmente la subida y bajada de datos a la lista de productos o de carritos en su respectiva área.
 
-## Las rutas del Proyecto:
-Dentro del proyecto, encontraremos con varias rutas, estas siendo del tipo Get, Post, Put y Delete para proporcionar una experiencia de manejo en el flujo de datos más rapida.
+## Las rutas API del Proyecto:
+Dentro del proyecto, encontraremos con varias rutas para el uso con postman, declaradas bajo la url '/api/' , estas siendo del tipo Get, Post, Put y Delete para proporcionar una experiencia de manejo en el flujo de datos más rapida.
 
 
 ## **Rutas de Products**:
 
 1. Ruta Get para la creación de un producto: (http://localhost:8080/api/products)
-  - Formato del Product:
+  - Formato del Product:                                                                                                                                                                 
     {                                                                                                                                                                               
     "title": "Example-title",                                                                                                                                                              
     "description": "Example-Description",                                                                                                                                                        
@@ -58,3 +58,27 @@ Dentro del proyecto, encontraremos con varias rutas, estas siendo del tipo Get, 
   
 4. Ruta Delete - Eliminación de un Carrito Seleccionado (http://localhost:8080/api/cart/:CID)
    - cart/:cid - Determina el Carrito a Eliminar por su respectivo ID en la lista de Carritos generados.
+
+## Las rutas Generales del Proyecto:
+Como antes fue mencionado, El proyecto se divide en las rutas marcadas con el '/api/' y las rutas m'as generales. En este caso, estas rutas en concreto nos sirven para el renderizado de los productos subidos a la base de datos.
+
+1. **Home** (http://localhost:8080/)
+- Dentro de esta ruta, podremos ver reflejado la seccion de productos renderizado en cards para una vista más estetica dentro de handlebars y las diferentes views.
+
+2. **RealTimeProduct** (http://localhost:8080/realtimeproducts)
+- Dentro de esta ruta, encontraremos como en el Home, los productos renderizados. Sin embargo, encontraremos tambien un pequeño formulario creado con la finalidad de poder manejar los productos en tiempo real.
+Dicho formulario, esta pensado para un manejo más sencillo a la hora del manejo de los productos, buscando el poder agregar, actualizar o eliminar los productos y ver los cambios en tiempo real siendo renderizados los cambios en el mismo instante. Sin embargo, esto aún no esta 100% finalizado ya que se penso como una vista unicamente con acceso para personal restringido, es decir admins.
+
+El formulario cuenta con 7 inputs los cuales apuntan a los 7 propiedades requeridas para el alta de un producto en la DB:
+
+  CAMPOS                   Propiedad del Producto                    TIPO de dato
+- Title                     El Nombre / titulo                        (String)
+- Description               La Descripción                            (String)
+- Code                      El Codigo de referencia                   (String)
+- Price                     El Precio                                 (Number)
+- Stock                     El Stock disponible                       (Number)
+- Category                  La Categoría                              (String)
+- Thumbnail                 La Portada / Imagen                       (Link)
+
+
+
